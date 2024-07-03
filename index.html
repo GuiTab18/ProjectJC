@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan's Company</title>
+    <link rel="shortcut icon" href="./Imagens/logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+    </style>
 </head>
-<body>
+<body id="body">
     <header>
-        <h1>Jordan's Company</h1>
-        <img src="./Imagens/logo.png" alt="" class="Logo-css">
+            <a href="https://jccybersec.vercel.app">
+                <img src="./Imagens/logo-white.png" alt="" id="logo">
+            </a>
+
         <nav>
-            <ul>
+            <ul id="ul1">
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#servicos">Serviços</a></li>
@@ -19,51 +32,59 @@
             </ul>
         </nav>
     </header>
-    
+    <div class="container-head">
+    <img src="./Imagens/head-image.jpg" alt=""c id="head-image">
+    <div id="centro">Protegendo seus dados, de bit a byte.</div>
+    </div>
     <section id="inicio">
-        <h2>Bem-vindo ao novo site (não) oficial da Jordan's Company!</h2>
-        <p>Estamos aqui para oferecer os melhores serviços para você.</p>
+        <h2>Bem-vindo ao novo site oficial da Jordan's Company!</h2>
+        <p>Seja muito bem vindo ao nosso recem construido site da <b>JORDAN'S COMPANY&copy;</b>! Aqui você poderá encontar diversos recursos para sua proteção, tal como planos, softwares, entre outros.<br>
+        Aqui você também poderá encontar guias de como instalar nossas aplicações e utilizar seu plano. </p>
     </section>
     
     <section id="sobre">
         <h2>Sobre Nós</h2>
-        <p>A Jordan's Company é líder no mercado, quando se trata de planos para a sua segurança pessoal e de seus dados. Nós oferecemos diversos planos, desde os mais simples até os mais avançados</p>
+        <h3>Quem somos?</h3>
+        <p>Jordan's Company é uma empresa de cíbersegurança, localizada em Campos do Jordão, São paulo, e focada em proteger você das ameaças do mundo virtual. Fundada em 2008, e com apenas 2 funcionarios, a Jordan's Company deixou de ser uma ideia no papel para se tornar uma das maiores empresas de proteção on-line já criadas, e atualmente com 7 funcionarios (sim, bastante) conseguiu alcançar seu principal objetivo. </p>
+        <br>
+        <h3>O que fazemos?</h3>
+        <p>A Jordan's Company é líder no mercado quando se trata de planos para a sua segurança pessoal e de seus dados. Nós oferecemos diversos planos, desde os mais simples até os mais avançados, para que você tenha um maior conforto navegando na internet sem se preocupar com potenciais ameaças.</p>
     </section>
     
     <section id="servicos">
         <h2>Serviços</h2>
         <ul>
-            <li>Consultoria Empresarial</li>
-            <li>Planos e serviços</li>
-            <li>Softwares, Drivers e Apps</li>
+           <a href="https://jccybersec.vercel.app"> <input type="button" name="" class="servicos" value="Consultoria Empresarial"></a> <br>
+            <a href="./site em construcao/index.html"><input type="button" name="" class="servicos" value="Planos e serviços"></a> <br>
+            <a href="./site em construcao/index.html"><input type="button" name="" class="servicos" value="Softwares, Drivers e Apps"></a>
         </ul>
     </section>
     
     <section id="contato">
         <h2>Contato</h2>
         <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button>enviar</button>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <input type="submit" value="Enviar" id="enviar">
         </form>
-        <div>
-             <h2>Nosso Contato (SAC):41 9899-7765</h2>
-             <p>Mantenha-se informado pela nossas redes sociais:</p>
-             <p>Instagram: @Jordanscompanyoff</p>
-             <p>Twitter (X): @s_jordansComp </p>
-            <p href="https://youtube.com/@jordanscompanyunofficial">YouTube: @jordanscompanyunofficial </p>
-            <p href="https://youtube.com/@jordanscompanyunofficial">YouTube: @jordanscompanyunofficial </p>
+        
+             <h2>(SAC):41 9899-7765</h2>
+             <a>Mantenha-se informado pela nossas redes sociais:</a>
+             <li><a href="https://www.instagram.com/jordanscompanyoff?igsh=a2JqYzY0MmhsYXV5">Instagram: @Jordanscompanyoff</a></li>
+             <li><a href="https://x.com/s_jordansComp">Twitter (X): @s_jordansComp </a></li>
+             <li><a href="https://youtube.com/@jordanscompanyunofficial">YouTube: @jordanscompanyunofficial </a></li>
         </div>
     </section>
     
     <footer>
         <p>&copy; 2024 Jordan's Company. Todos os direitos reservados.</p>
+        <h1><a href="/pagina antiga/index.html">pagina antiga</a></h1>
     </footer>
 </body>
 </html>

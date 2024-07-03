@@ -1,0 +1,28 @@
+/*CSS*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    font-family: Montserrat;
+
+}
+ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    background-color: #ffffff;
+    list-style: none;
+}
+
+#exclamacao {
+    font-size: 100px;
+    position: relative;
+    color: black;
+}
+
+#exclamacao:hover {
+    background-color: #cccccc;
+    border-radius: 10px;
+}
