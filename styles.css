@@ -1,4 +1,7 @@
 /* styles.css */
+
+
+
 @font-face {
     font-family: "raleway";
     src: 
@@ -26,6 +29,7 @@ header {
     font-weight: 500;
     background-color: #333;
     color: #fff;
+    
     padding: 7px 0;
     text-align: center;
     image-orientation: 90deg;
