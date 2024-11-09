@@ -1,0 +1,223 @@
+/* main.css */
+
+
+
+@font-face {
+    font-family: "raleway";
+    src: 
+        url(Fontes/Raleway/Raleway-VariableFont_wght.woff),
+        url(Fontes/raleway/Raleway-VariableFont_wght.woff2);
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+body {
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background: linear-gradient(180deg, rgba(222,222,222,0) 0%, rgb(255, 255, 255) 100%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #333;
+    color: #fff;
+    
+    padding: 7px 0;
+    text-align: center;
+    image-orientation: 90deg;
+}
+ 
+nav ul {
+    list-style: none;
+    font-size: 15px;
+    text-align: start;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 30px 2% 30px 2%;
+    top: 4px;
+    
+}
+
+nav ul li a:hover {
+    background-color: #3f3f3f;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato {
+    border: 2px;
+    border-radius: 10px;
+    background-color: #ececec;
+
+}
+
+form label {
+    margin-top: 10px;
+    position: relative;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+form #enviar {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form #enviar:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    min-height: 0%;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    
+}
+
+#head-image {
+    width: 100%;
+    height: auto;
+}
+
+#contato div li {
+    padding: 7px;
+}
+
+.servicos {
+    background-color: #afafaf;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 30px;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, rgba(0,188,255,1) 0%, rgba(0,75,255,1) 98%);;
+    box-shadow: inset 0px 0px 10px 1px rgb(255, 255, 255);
+    
+}
+
+.servicos:hover {
+    box-shadow: inset ;
+    padding: 40px;
+    margin: auto;
+}
+
+.servicos:active {
+    background-image: linear-gradient(0deg, rgb(0, 137, 187) 0%, rgb(0, 57, 189) 98%);;
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,1);
+}
+
+.container-head {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 40px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #1ab6ff, 0 0 30px #1ab6ff, 0 0 40px #1ab6ff, 0 0 55px #1ab6ff, 0 0 75px #1ab6ff;
+}
+#centro {
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 3.5vh;
+
+}
+
+.rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 1.6rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  
+  .rounded-social-buttons .social-button.twitter {
+    background: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+    color: #55acee;
+    background: #fefefe;
+    border-color: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.youtube {
+    background: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+    background: #125688;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+    color: #125688;
+    background: #fefefe;
+    border-color: #125688;
+  }
